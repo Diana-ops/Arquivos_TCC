@@ -1,5 +1,5 @@
 # Arquivos TCC: Sistema Automático para Coleta e Classficação de Ondas Cerebrais 
 ## Instituição: Fatec Santo André
 ## Curso: Mecatronica Industrial 
-### Aluno: Diana Regina da Silva RA: 0791711022
+### Aluno: Diana Regina da Silva 
 
