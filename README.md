@@ -9,15 +9,15 @@ Ano de Conclusão: 2019
 
 ----------------------------------------------------------------------------------------
 
-Organização dos Diretórios:
-Linguagem C:
+### Organização dos Diretórios de Scripts: 
+__Linguagem C:__
 - Coleta_Mindflex.ino: Coleta dos Dados do Capacete MindFlex
 - JoysticTCC: Leitura e mapeamento das posições do joystick
 - node-para-raspberry: Recebe as mensagens transmitidas do raspberry para o acionamento do carrinho
 
-Linguagem Python - Raspberry:
+__Linguagem Python - Raspberry:__
 
-Construção das Janelas:
+_Construção das Janelas:_
 
 - janela_menu: Contrução da janela principal
 - janela_instrucoes: Contrução da janela de instruções (parte 1)
@@ -29,7 +29,7 @@ Construção das Janelas:
 - janela_uso_automatico: Contrução da janela de uso automático para o joystick e capacete mindflex
 - janela_uso_manual_v0: Contrução da janela de uso manual
 
-Leitura - Tratamento - Treinamento da RNA - Aplicação
+_Leitura - Tratamento - Treinamento da RNA - Aplicação_
 - dados_joy_mind: Tratamento dos dados para testar a capacidade de classificação da RNA
 - leitura: Leitura e gravamento dos dados coletados em arquivo .csv
 - tratamento_dados: Normalização e filtro dos dados para uma faixa de valores para a construção dos datasets
@@ -38,3 +38,14 @@ Leitura - Tratamento - Treinamento da RNA - Aplicação
 - modelo_RNA_testes_uso_joy: Recebe os dados do capacete para classificação da RNA e acionamento do carrinho
 - teste_automa: Executa o script "modelo_RNA_testes_uso_joy" enquanto não for selecionado
                 a opção de parar a simulação na janela de uso automático
+
+
+### Organização dos Diretórios de Dados:
+__Dados Coletados com Mindfex:__
+- Movimentos: Dados coletados durante a execução de um movimento com o braço direito e com a perna direita 
+- Palavras: Dados coletados pensando em palavras que remetessem cada um dos movimentos 
+- Musicas: Dados coletados ao ouvir musicas com 2 estilos diferentes (Rock e Sons da Natureza)
+
+__Testes Joystick:__
+- Teste 3 - Validação com Joystick: Dados tratados de maneira que apenas uma coluna diferenciasse os movimentos pela amplitude 
+- Teste 9 - Validação com Joystick: Dados tratados de maneira que cada coluna representasse o acionamento de um movimento 
