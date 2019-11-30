@@ -1,11 +1,16 @@
-## Arquivos TCC: Sistema Automático para Coleta e Classficação de Ondas Cerebrais 
-### Instituição: Fatec Santo André
-### Curso: Mecatronica Industrial 
+### Arquivos TCC: Sistema Automático para Coleta e Classficação de Ondas Cerebrais 
+Instituição: Fatec Santo André
+
+Curso: Mecatronica Industrial 
+
 Aluno: Diana Regina da Silva
 
 Orientador: Prof. Paulo Tetsuo Hoashi
 
 Ano de Conclusão: 2019
+
+### Resumo do Projeto 
+ >O projeto “Sistema Automático de Coleta e Classificação de Ondas Cerebrais” tem como objetivo desenvolver uma interface gráfica automatizada que permita a coleta de sinais cerebrais através do capacete MindFlex (da empresa Neurosky), para acionamento dos movimentos de um carrinho a partir da diferença de comportamento desses sinais, que serão utilizados como entrada para uma Rede Neural Artificial (RNA), destinada a aprender a classificá-las em uma saída. O aprendizado é feito em um algoritmo de treinamento no Raspberry Pi3, um microprocessador com boa velocidade de processamento para fazer a RNA receber a leitura do capacete, interpretar e emitir uma saída que acionará um carrinho para a direção escolhida. 
 
 ----------------------------------------------------------------------------------------
 
